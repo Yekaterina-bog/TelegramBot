@@ -2,13 +2,10 @@ import requests
 from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext, ConversationHandler
 
-# Замените "YOUR_TELEGRAM_BOT_TOKEN" на токен вашего бота
 TELEGRAM_BOT_TOKEN = "6606111041:AAFotzKGqbCgEwAfZ1pxwTpTQBD41uCI0OY"
 
-# Замените "YOUR_GOOGLE_BOOKS_API_KEY" на ваш API-ключ Google Books API
 GOOGLE_BOOKS_API_KEY = "AIzaSyA8N0aAvz0N5kAb_vFJJBF_nCxFsmeMlow"
 
-# Состояния разговора
 SEARCH_BOOK_TITLE = 1
 
 def start(update: Update, context: CallbackContext) -> int:
