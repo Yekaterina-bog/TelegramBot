@@ -10,5 +10,5 @@
 - /bookinfo: запускает обработчик команды book_info, который предлагает пользователю ввести название книги для получения информации.
 - /cancel: запускает обработчик команды cancel, который завершает поиск и выводит сообщение о завершении.
 ## Пример работы бота
-![Alt text](image.png)
-![Alt text](image-1.png)
+<img width="824" alt="image" src="https://github.com/Yekaterina-bog/TelegramBot/assets/153742245/d5642043-81ca-4364-ad56-8151457728a4">
+![image](https://github.com/Yekaterina-bog/TelegramBot/assets/153742245/e15a2de6-f2d3-40a8-a08b-e66ca3e4638b)
