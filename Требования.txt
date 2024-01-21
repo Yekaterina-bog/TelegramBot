@@ -1,0 +1,5 @@
+python-telegram-bot: Для работы с Telegram Bot API.
+pip install python-telegram-bot
+
+requests: Для выполнения HTTP-запросов.
+pip install requests
